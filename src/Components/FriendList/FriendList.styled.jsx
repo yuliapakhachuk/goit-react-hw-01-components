@@ -5,4 +5,6 @@ export const FriendList = styled.ul`
     padding-left: 0;
     width: 300px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 `
