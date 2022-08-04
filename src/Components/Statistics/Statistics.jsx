@@ -13,7 +13,7 @@ export default function Statistics({title, data}) {
                         i={index}
                         key={stat.id}>
                             <Label>{stat.label}</Label>
-                            <span class="percentage">{stat.percentage}</span>
+                            <span>{stat.percentage}</span>
                     </StatItem>
                 )
                 )}
